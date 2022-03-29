@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import './counter.css';
 
 const colors = ['red', 'green', 'blue'];
-const number = 12;
 
 function Counter({ title, initValue }) {
   const [count, setCount] = useState(initValue ? Number(initValue) : 5);
